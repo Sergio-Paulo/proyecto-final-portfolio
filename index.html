@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./styles/style.css">
     <title>ProyectoFinal</title>
 </head>
-<body class="bg-neutral-400">
+<body class="bg-gray-400">
     <header class="mb-16">
         <div class="flex justify-between items-center">
             <figure class="justify-start w-48">
@@ -39,7 +39,7 @@
             </div>
         </div>
         <figure id="banner" class="w-full">
-            <img src="./image/banner1.jpg" alt="banner">
+            <img src="./image/banner4.jpg" alt="banner" class="max-w-full">
         </figure>
         <figure id="profile-picture" class="relative bottom-32 left-16 w-48 flex flex-col gap-6">
             <img src="./image/me.jpeg" alt="Sergio Torres Fernandez" class="max-w-full rounded-full">
@@ -47,22 +47,22 @@
                 <h2>Full Stack Developer Junior</h2>
             </figcaption>
         </figure>
-        <div>
-            <h3 class="text-4xl">Acerca de mí</h3>
-            <p class="text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia accusantium totam id aperiam ipsum suscipit aspernatur quas quisquam, iste consectetur temporibus possimus quos veritatis commodi laborum a. Incidunt tempore amet excepturi praesentium voluptate numquam sapiente vitae libero temporibus laudantium! Quo velit totam corrupti ex vel!</p>
+        <div class="flex items-center mx-12">
+            <h3 class="text-3xl w-1/3">Acerca de mí</h3>
+            <p class="text-lg w-2/3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia accusantium totam id aperiam ipsum suscipit aspernatur quas quisquam, iste consectetur temporibus possimus quos veritatis commodi laborum a. Incidunt tempore amet excepturi praesentium voluptate numquam sapiente vitae libero temporibus laudantium! Quo velit totam corrupti ex vel!</p>
         </div>
     </header>
-    <main>
+    <main class="mb-16">
         <!-- Experiencial Laboral -->
-        <div>
-            <h4 class="text-3xl">Experiencia Laboral</h4>
-            <div class="flex">
-                <div class="w-1/3 flex flex-col gap-8 mt-8">
-                    <img src="" alt="works-img1">
-                    <img src="" alt="works-img2">
-                    <img src="" alt="works-img3">
+        <div class="mb-4 mx-12">
+            <h4 class="text-3xl text-center">Experiencia Laboral</h4>
+            <div class="flex items-center">
+                <div class="w-1/3 flex flex-col items-center gap-8 mt-8">
+                    <img src="./image/me.jpeg" alt="works-img1" class="w-20">
+                    <img src="./image/me.jpeg" alt="works-img2" class="w-20">
+                    <img src="./image/me.jpeg" alt="works-img3" class="w-20">
                 </div>
-                <div class="w-2/3">
+                <div class="w-2/3 flex flex-col gap-2 mt-8">
                     <h5 class="text-2xl">Trabajo 1</h5>
                     <p class="text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores vel mollitia, voluptatem rerum in quasi? Quam distinctio excepturi iusto id provident odit laborum voluptatibus totam.</p>
                     <h5 class="text-2xl">Trabajo 2</h5>
@@ -73,15 +73,15 @@
             </div> 
         </div>
         <!-- Recorrido Academico -->
-        <div>
-            <h4 class="text-3xl">Educacion</h4>     
-            <div class="flex">
-                <div class="w-1/3 flex flex-col gap-8 mt-8">
-                    <img src="" alt="education-img1">
-                    <img src="" alt="education-img2">
-                    <img src="" alt="education-img3">
+        <div class="mb-4 mx-12">
+            <h4 class="text-3xl text-center">Educacion</h4>     
+            <div class="flex items-center">
+                <div class="w-1/3 flex flex-col items-center gap-8 mt-8">
+                    <img src="./image/me.jpeg" alt="education-img1" class="w-20">
+                    <img src="./image/me.jpeg" alt="education-img2" class="w-20">
+                    <img src="./image/me.jpeg" alt="education-img3" class="w-20">
                 </div>
-                <div class="w-2/3">
+                <div class="w-2/3 flex flex-col gap-2 mt-8">
                     <h5 class="text-2xl">Educacion 1</h5>
                     <p class="text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores vel mollitia, voluptatem rerum in quasi? Quam distinctio excepturi iusto id provident odit laborum voluptatibus totam.</p>
                     <h5 class="text-2xl">Educacion 2</h5>
@@ -92,9 +92,9 @@
             </div> 
         </div>
         <!-- Hard & Soft skills -->
-        <div>
-            <h4 class="text-3xl mb-8">Hard and Soft Skills</h4>
-            <div class="w-full flex flex-col gap-8">
+        <div class="flex items-center mx-12">
+            <h4 class="text-3xl mb-8 w-1/3">Hard and soft skills</h4>
+            <div class="w-2/3 flex flex-col gap-8">
                 <div class="flex justify-around">
                     <img src="./image/me.jpeg" id="skil-img1" alt="skil-img1" class="w-32 blur-md rounded-full">
                     <img src="./image/me.jpeg" id="skil-img2" alt="skil-img2" class="w-32 blur-md rounded-full">
@@ -109,11 +109,11 @@
             </div>
         </div>
         <!-- Proyectos -->
-        <div>
-            <h4 class="w-full text-3xl">Mis Proyectos</h4>
+        <div class="mx-12">
+            <h4 class="w-full text-3xl mb-4 mt-12 flex justify-center">Mis Proyectos</h4>
             <div>
                 <h5 class="text-2xl">Proyecto 1</h5>
-                <div class="flex gap-16">
+                <div class="flex gap-16 items-center">
                     <p class="text-lg w-2/3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum maxime sapiente rerum debitis ab sunt dolores voluptatem! Maiores eos hic maxime eligendi excepturi dignissimos aspernatur suscipit, eveniet fugit iure tempore itaque nobis quam.</p>
                     <a href="">
                         <img src="./image/me.jpeg" alt="miniatura proyecto 1" class="w-48">
@@ -122,7 +122,7 @@
             </div>
             <div>
                 <h5 class="text-2xl">Proyecto 2</h5>
-                <div class="flex gap-16">
+                <div class="flex gap-16 items-center">
                     <p class="text-lg w-2/3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum maxime sapiente rerum debitis ab sunt dolores voluptatem! Maiores eos hic maxime eligendi excepturi dignissimos aspernatur suscipit, eveniet fugit iure tempore itaque nobis quam.</p>
                     <a href="">
                         <img src="./image/me.jpeg" alt="miniatura proyecto 2" class="w-48">
@@ -131,7 +131,7 @@
             </div>
             <div>
                 <h5 class="text-2xl">Proyecto 3</h5>
-                <div class="flex gap-16">
+                <div class="flex gap-16 items-center">
                     <p class="text-lg w-2/3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum maxime sapiente rerum debitis ab sunt dolores voluptatem! Maiores eos hic maxime eligendi excepturi dignissimos aspernatur suscipit, eveniet fugit iure tempore itaque nobis quam.</p>
                     <a href="">
                         <img src="./image/me.jpeg" alt="miniatura proyecto 1" class="w-48">
@@ -140,6 +140,16 @@
             </div>
         </div>
     </main>
+    <footer class="flex justify-center mb-8">
+        <!-- 
+            Torres Fernández Sergio | c Argentina Programa 2022
+                    Bahía Blanca, Buenos Aires, Argentina       
+         -->
+         <div class="flex flex-col items-center">
+            <p>Torres Fernández Sergio | © Argentina Programa 2022</p>
+            <p>Bahía Blanca, Buenos Aires, Argentina</p>
+         </div>
+    </footer>
 
 
 
